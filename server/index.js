@@ -43,7 +43,7 @@ server.get("/:log", async (req, res) => {
           position
         });
 
-        fileData = buffer.slice(0, bytesRead).toString() + fileData;
+        fileData = buffer.slice(0, bytesRead).toString().replace(/(\r)?\n/g, "<br />") + fileData;
 
         eof = position <= 0;
       } while (!eof);
