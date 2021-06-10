@@ -9,7 +9,7 @@ const BUFFER_SIZE = 1024;
 server.get("/:log", async (req, res) => {
   try {
     const { log } = req.params;
-    const { lines } = req.query;
+    const { lines, filter } = req.query;
 
     if (!log) {
       return res.status(400).send({
@@ -50,11 +50,22 @@ server.get("/:log", async (req, res) => {
         // Update position in the file
         position = tempPos;
 
-        // Replace newlines with HTML new lines and count number of lines as we go along
-        fileData = buffer.slice(0, bytesRead).toString().replace(/(\r)?\n/g, function(_match) {
-          numLinesProcessed++;
-          return "<br />";
-        }) + fileData;
+        const linesToProcess = [];
+        // Split our lines by new line
+        const lines = buffer.slice(0, bytesRead).toString().split(/(\r)?\n/);
+        for (const line of lines) {
+          if (line) {
+            if (!filter || line.indexOf(filter) !== -1) {
+              // If we don't have a filter, or if we have a filter and this line matches the filter, 
+              // increment number of lines processed and add it to our lines array
+              numLinesProcessed++;
+              linesToProcess.push(line);
+            }
+          }
+        }
+
+        // Create a new line delimeted string and prepend to our data
+        fileData = linesToProcess.join("<br />") + fileData;
 
         // If the user gave us a line limit and we've exceeded that, stop parsing log file
         if (lines && numLinesProcessed >= lines) {
