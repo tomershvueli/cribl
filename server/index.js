@@ -8,7 +8,8 @@ const BUFFER_SIZE = 1024;
 
 server.get("/:log", async (req, res) => {
   try {
-    const log = req.params.log;
+    const { log } = req.params;
+    const { lines } = req.query;
 
     if (!log) {
       return res.status(400).send({
@@ -19,36 +20,62 @@ server.get("/:log", async (req, res) => {
     const logFilePath = `${LOG_PATH}/${log}`;
 
     fs.open(logFilePath, 'r', function(err, fd) {
+      // If we had a problem getting/opening our log file, stop processing and inform our user
       if (err || !fd) {
         return res.status(400).send({
           message: "There was a problem opening the requested log file"
         });
       }
 
+      // Get log file size to start reading position in proper place
       const stats = fs.fstatSync(fd);
       const fileSize = stats.size;
 
       let fileData = '';
       let buffer = Buffer.alloc(BUFFER_SIZE);
       let position = fileSize;
-      let length;
-      let eof = false;
+      let numLinesProcessed = 0;
+      let eof = false, done = false;
 
       do {
-        position = Math.max(0, position - BUFFER_SIZE);
-        length = Math.min(BUFFER_SIZE, position === 0 ? BUFFER_SIZE : position);
+        // Calculate the position where we want to start reading from
+        const tempPos = Math.max(0, position - BUFFER_SIZE);
 
-        let bytesRead = fs.readSync(fd, buffer, {
-          length,
-          position
+        // Read file portion into buffer
+        const bytesRead = fs.readSync(fd, buffer, {
+          length: Math.min(BUFFER_SIZE, position),
+          position: tempPos
         });
 
-        fileData = buffer.slice(0, bytesRead).toString().replace(/(\r)?\n/g, "<br />") + fileData;
+        // Update position in the file
+        position = tempPos;
 
+        // Replace newlines with HTML new lines and count number of lines as we go along
+        fileData = buffer.slice(0, bytesRead).toString().replace(/(\r)?\n/g, function(_match) {
+          numLinesProcessed++;
+          return "<br />";
+        }) + fileData;
+
+        // If the user gave us a line limit and we've exceeded that, stop parsing log file
+        if (lines && numLinesProcessed >= lines) {
+          done = true;
+        }
+
+        // If our position is below or at 0, we're done reading the log file
         eof = position <= 0;
-      } while (!eof);
+      } while (!eof && !done);
 
-      res.send(fileData);
+      // Reverse our array using <br>'s as our delimeter
+      const reversed = fileData.split("<br />").reverse();
+
+      // If our log file had an empty last line, remove it from the top of the reversed array
+      const emptyFirstLine = reversed[0] === "";
+      if (emptyFirstLine) reversed.shift();
+
+      // Grab only the number of lines we need and join using <br>'s
+      const body = reversed.slice(0, lines).join("<br />");
+
+      res.send(body);
     });
   } catch (err) {
     // Be sure to log the error somewhere appropriate and notify code owners
