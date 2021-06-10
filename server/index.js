@@ -3,7 +3,7 @@ const express = require('express'),
 
 const fs = require("fs");
 
-const LOG_PATH = "/var/log";
+const LOG_PATH = process.env.LOG_PATH || "/var/log";
 const BUFFER_SIZE = 1024;
 
 server.get("/:log", async (req, res) => {

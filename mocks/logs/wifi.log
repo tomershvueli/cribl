@@ -1,0 +1,246 @@
+Jun  9 00:16:23 LP-C02CLHJUMD6M newsyslog[2004]: logfile turned over
+Wed Jun  9 00:16:24.695 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 00:16:35.087 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Wed Jun  9 00:16:35.087 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf65ad5e0
+Wed Jun  9 00:16:35.087 Apple80211Set:9578 CFType is CFData
+Wed Jun  9 00:16:37.331 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Wed Jun  9 00:17:17.251 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 00:17:18.670 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 00:17:19.115 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 00:17:19.274 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 00:17:27.958 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Wed Jun  9 02:04:38.212 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 02:04:38.409 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 02:04:38.519 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 02:04:38.728 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 02:04:45.902 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Wed Jun  9 03:52:46.880 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 03:52:47.152 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 03:52:47.318 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 03:52:47.381 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 03:52:55.073 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Wed Jun  9 05:40:55.782 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 05:40:56.498 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 05:40:56.665 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 05:40:56.862 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 05:41:03.633 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Wed Jun  9 07:00:07.928 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 07:00:08.153 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 07:00:08.289 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 07:00:08.332 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 07:00:08.465 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Wed Jun  9 08:08:40.921 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 08:08:40.960 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 08:08:41.065 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 08:08:41.160 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 08:08:41.190 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 08:08:42.051 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 08:08:42.144 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 08:08:42.205 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 08:08:43.544 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 08:09:06.093 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Wed Jun  9 08:09:06.093 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf63b26a0
+Wed Jun  9 08:09:06.093 Apple80211Set:9578 CFType is CFData
+Wed Jun  9 12:49:42.175 <kernel>  IOCTL (from pid 297) not recognized: 69 out of 353
+Wed Jun  9 12:49:42.176 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 14:41:23.479 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 22:02:16.014 <kernel>  IOCTL (from pid 297) not recognized: 69 out of 353
+Wed Jun  9 22:02:16.014 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 22:02:38.455 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 22:03:08.589 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Wed Jun  9 23:37:27.526 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 23:37:27.831 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Wed Jun  9 23:37:28.523 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Wed Jun  9 23:37:38.278 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 00:03:16.940 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 00:03:17.048 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 00:03:17.941 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 00:03:18.053 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 00:05:01.355 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 00:05:03.391 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 00:05:04.041 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 00:05:05.925 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 00:05:14.887 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Thu Jun 10 00:05:14.887 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf94b9360
+Thu Jun 10 00:05:14.887 Apple80211Set:9578 CFType is CFData
+Thu Jun 10 00:05:15.126 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 01:28:17.881 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 01:28:17.994 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 01:28:17.994 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 01:28:18.933 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 01:28:25.243 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 03:16:28.248 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 03:16:28.249 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 03:16:28.475 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 03:16:28.562 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 03:16:36.801 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 04:43:39.079 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 04:43:39.123  <kernel> AppleBCMWLANCore::getSSIDData(): Get failure: APPLE80211_IOC_SSID: -528342013
+Thu Jun 10 04:43:40.400 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 04:43:40.407 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 04:44:06.090 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 05:04:36.848 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 05:04:37.598 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 05:04:44.014 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 05:04:44.014  Thu Jun 10 05:04:44.015 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 05:04:44.015  Thu Jun 10 05:04:44.223 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:04:44.249 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:04:44.279 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:04:44.328 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:04:44.356 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:04:44.366 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:04:44.378 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:04:44.393 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:04:49.159 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 05:19:44.584 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 05:19:44.845 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:19:44.859 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 05:19:45.072 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:19:55.335 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 05:34:51.578 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 05:34:52.186 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:34:52.295 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:34:52.638 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 05:34:59.440 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 05:49:59.107 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 05:49:59.617 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 05:49:59.787 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:49:59.788 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 05:50:19.736 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 07:15:07.109 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 07:15:07.355 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:15:07.433 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:15:07.689 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 07:15:31.748 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Thu Jun 10 07:15:31.748 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf601c270
+Thu Jun 10 07:15:31.748 Apple80211Set:9578 CFType is CFData
+Thu Jun 10 07:16:09.746 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 07:40:42.350 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 07:40:42.350  Thu Jun 10 07:40:42.971 <kernel> AppleBCMWLANCore::getSSIDData(): Get failure: APPLE80211_IOC_SSID: -528342013
+Thu Jun 10 07:40:42.991 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 07:40:43.662 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 07:41:03.170 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 07:42:22.063 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 07:42:22.063  <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 07:42:22.064  Thu Jun 10 07:42:22.122 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:42:22.135 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:42:22.212 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:42:22.212 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:42:22.220 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:42:22.221 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:42:22.234 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:42:22.234 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:42:22.434 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 07:42:46.486 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Thu Jun 10 07:42:46.486 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf6655c00
+Thu Jun 10 07:42:46.487 Apple80211Set:9578 CFType is CFData
+Thu Jun 10 07:43:34.995 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 07:49:42.468 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 07:49:42.468  Thu Jun 10 07:49:42.990 <kernel> AppleBCMWLANCore::getSSIDData(): Get failure: APPLE80211_IOC_SSID: -528342013
+Thu Jun 10 07:49:43.778 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 07:50:04.123 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 07:52:08.071 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 07:52:08.071  Thu Jun 10 07:52:08.071 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 07:52:08.071  Thu Jun 10 07:52:08.175 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:52:08.182 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:52:08.183 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:52:08.190 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:52:08.219 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 07:52:08.235 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:52:08.242 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:52:08.243 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:52:08.271 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 07:52:32.201 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Thu Jun 10 07:52:32.201 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf661d710
+Thu Jun 10 07:52:32.201 Apple80211Set:9578 CFType is CFData
+Thu Jun 10 07:53:22.877 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 07:58:10.588 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 07:58:10.588  Thu Jun 10 07:58:11.130 <kernel> AppleBCMWLANCore::getSSIDData(): Get failure: APPLE80211_IOC_SSID: -528342013
+Thu Jun 10 07:58:11.893 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 07:58:32.385 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 08:00:36.155 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 08:00:36.155  Thu Jun 10 08:00:36.156 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 08:00:36.156  Thu Jun 10 08:00:36.215 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:00:36.217 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:00:36.298 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:00:36.302 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:00:36.305 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:00:36.316 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:00:36.318 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:00:36.322 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:00:36.473 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 08:01:00.521 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Thu Jun 10 08:01:00.521 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf603a610
+Thu Jun 10 08:01:00.521 Apple80211Set:9578 CFType is CFData
+Thu Jun 10 08:01:48.122 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 08:23:47.897 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 08:23:47.939 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:23:47.944 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 08:23:48.954 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 08:23:57.596 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 08:23:57.596  Thu Jun 10 08:23:59.426 <kernel> AppleBCMWLANCore::getSSIDData(): Get failure: APPLE80211_IOC_SSID: -528342013
+Thu Jun 10 08:24:11.472 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 09:05:59.601 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 09:05:59.601  <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 09:05:59.602  Thu Jun 10 09:05:59.708 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:05:59.709 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:05:59.716 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:05:59.717 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:05:59.753 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:05:59.757 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:05:59.760 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:05:59.772 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:05:59.947 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 09:06:24.013 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Thu Jun 10 09:06:24.013 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf661bf70
+Thu Jun 10 09:06:24.013 Apple80211Set:9578 CFType is CFData
+Thu Jun 10 09:06:28.152 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 09:06:28.152  Thu Jun 10 09:07:21.230 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 09:08:18.874 <airportd[297]> _bsd_80211_event_callback: Failed to get power setting from device : err 0
+Thu Jun 10 09:08:18.875 
+Thu Jun 10 09:08:19.255 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:08:19.266 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:08:19.369 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:08:19.407 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:08:20.432 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 09:08:20.443 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:08:20.443 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:08:38.627 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 09:08:38.627  Thu Jun 10 09:08:39.641 <kernel> AppleBCMWLANCore::getSSIDData(): Get failure: APPLE80211_IOC_SSID: -528342013
+Thu Jun 10 09:13:05.142 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 09:13:05.142  Thu Jun 10 09:13:05.143 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 09:13:05.143  Thu Jun 10 09:13:05.248 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:13:05.249 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:13:05.261 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:13:05.262 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:13:05.330 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:13:05.330 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:13:05.337 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:13:05.338 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 09:18:36.527 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 13:13:23.306 <kernel>  IOCTL (from pid 297) not recognized: 69 out of 353
+Thu Jun 10 13:13:23.307 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 13:13:45.674 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 13:14:00.778 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 13:30:22.859 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 13:30:22.861 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 13:30:23.912 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 13:30:34.764 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 13:30:34.764  Thu Jun 10 13:30:36.606 <kernel> AppleBCMWLANCore::getSSIDData(): Get failure: APPLE80211_IOC_SSID: -528342013
+Thu Jun 10 13:31:02.678 <kernel> IO80211VirtualInterface::handleSIOCSIFFLAGS : Source handleIoctlGated calling peerManager->disable
+Thu Jun 10 14:05:10.159 <airportd[297]> _bsd_80211_event_callback: Failed to get power setting from device : err 0
+Thu Jun 10 14:05:10.159 
+Thu Jun 10 14:05:11.735 <kernel>  IOCTL (from pid 297) not recognized: 5 out of 353
+Thu Jun 10 14:05:29.804 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 14:05:29.804  Thu Jun 10 14:05:29.804 <kernel> postMessage::1349 APPLE80211_M_BSSID_CHANGED received
+Thu Jun 10 14:05:29.804  Thu Jun 10 14:05:29.868 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 14:05:29.869 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 14:05:29.970 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 14:05:29.975 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 14:05:29.978 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 14:05:29.985 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 14:05:29.985 <airportd[297]> ERROR: sharingd (536) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 14:05:30.012 <airportd[297]> ERROR: rapportd (487) is not entitled for com.apple.wifi.join_history, will not allow request
+Thu Jun 10 14:05:54.106 Apple80211Set:9543 Processing APPLE80211_IOC_ROAM
+Thu Jun 10 14:05:54.106 Apple80211Set:9557 Processing APPLE80211_IOC_ROAM dataRef:0x7fccf601c3e0
+Thu Jun 10 14:05:54.106 Apple80211Set:9578 CFType is CFData
