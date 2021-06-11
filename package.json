@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "LOG_PATH=mocks/logs jest --watchAll"
+    "start:test": "LOG_PATH=mocks/logs node index.js",
+    "test": "jest --watchAll"
   },
   "author": "Tomer Shvueli",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
     "jest": "^27.0.4",

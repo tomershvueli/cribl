@@ -1,12 +1,12 @@
-const express = require('express'),
-  server = express();
-
+const express = require('express');
 const fs = require("fs");
+
+const logRouter = express.Router();
 
 const LOG_PATH = process.env.LOG_PATH || "/var/log";
 const BUFFER_SIZE = 1024;
 
-server.get("/:log", async (req, res) => {
+logRouter.get("/:log", async (req, res) => {
   try {
     const { log } = req.params;
     const { lines, filter } = req.query;
@@ -96,10 +96,4 @@ server.get("/:log", async (req, res) => {
   }
 });
 
-server.get("*", (req, res) => {
-  res.status(404).send({
-    url: `${req.originalUrl} not found`
-  });
-});
-
-module.exports = server;
+module.exports = logRouter;

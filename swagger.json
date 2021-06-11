@@ -1,0 +1,67 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "version": "1.0.0",
+    "title": "Log Files API",
+    "description": "API to access and query system log file",
+    "contact": {
+      "name": "Tomer Shvueli",
+      "email": "tomer@shvueli.com",
+      "url": "https://tomer.shvueli.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "paths": {
+    "/log/{logFile}": {
+      "get": {
+        "description": "Get a log file's contents",
+        "operationId": "getLogFile",
+        "parameters": [
+          {
+            "name": "log",
+            "in": "path",
+            "required": true,
+            "description": "Name of log file",
+            "default": "system.log"
+          },
+          {
+            "name": "lines",
+            "in": "query",
+            "description": "Number of lines to fetch from the log file",
+            "schema": {
+              "type": "integer",
+              "default": 10
+            },
+            "required": false
+          },
+          {
+            "name": "filter",
+            "in": "query",
+            "description": "Words to filter the log file by",
+            "schema": {
+              "type": "string",
+              "default": ""
+            },
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Log file queried successfully",
+            "content": {
+            }
+          },
+          "400": {
+            "description": "Error trying to fetch log file"
+          },
+          "500": {
+            "description": "Error"
+          }
+        }
+      }
+    }
+  }
+}
