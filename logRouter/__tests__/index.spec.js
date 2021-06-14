@@ -1,7 +1,7 @@
 const fs = require('fs');
 const superagent = require('superagent');
 
-const endpoint = 'http://localhost:3000/';
+const endpoint = 'http://localhost:3000/log/';
 
 describe('get log file', () => {
   it('should return 200 for log file that exists', async () => {
